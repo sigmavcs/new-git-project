@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "6315a9cd-805e-411a-8087-4f2ca8f7f638"
+          "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+          "1bddb56a-97a9-4c31-8129-8864df299230"
         ],
         "isRemovable": false,
         "filePath": "new-git-project"
@@ -31,11 +32,32 @@
           "layers": []
         },
         "triggers": []
+      },
+      "1bddb56a-97a9-4c31-8129-8864df299230": {
+        "id": "1bddb56a-97a9-4c31-8129-8864df299230",
+        "parent": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
+        "name": "a",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "aed58045-79e2-4a6c-b6ca-45069b999516"
+        ],
+        "isRemovable": true,
+        "filePath": "new-git-project/a"
+      },
+      "aed58045-79e2-4a6c-b6ca-45069b999516": {
+        "id": "aed58045-79e2-4a6c-b6ca-45069b999516",
+        "parent": "1bddb56a-97a9-4c31-8129-8864df299230",
+        "name": "another.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/a/another.js",
+        "code": ""
       }
     },
-    "deletedFiles": [
-      "new-git-project/lambda2.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
       "6315a9cd-805e-411a-8087-4f2ca8f7f638"
@@ -54,10 +76,33 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "b927d0b9-fa2e-46b4-ace2-28628a048155",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/new-git-project/subdir",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "163766fa-8e5b-4712-8e7f-7250ccb7251a",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/new-git-project/subdir",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "dsdfsd": {
+          "name": "dsdfsd",
+          "version": "22",
+          "dev": false,
+          "language": "python"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -67,12 +112,12 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562581318264
+    "lastSave": 1562672883881
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
-      "name": "new-git-project",
+      "name": "new-git-project2",
       "url": "https://github.com/sigmavcs/new-git-project"
     }
   }
